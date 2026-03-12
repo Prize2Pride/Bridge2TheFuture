@@ -1,0 +1,28 @@
+{
+  "query": "SHOW TABLES;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 3HSioVzDoK5v2T1.root --database 83vhAqWUSrpJG52MpW6U3Q --execute SHOW TABLES;",
+  "rows": [
+    {
+      "Tables_in_83vhAqWUSrpJG52MpW6U3Q": "__drizzle_migrations"
+    },
+    {
+      "Tables_in_83vhAqWUSrpJG52MpW6U3Q": "achievements"
+    },
+    {
+      "Tables_in_83vhAqWUSrpJG52MpW6U3Q": "ai_generated_courses"
+    },
+    {
+      "Tables_in_83vhAqWUSrpJG52MpW6U3Q": "ai_instructor"
+    },
+    {
+      "Tables_in_83vhAqWUSrpJG52MpW6U3Q": "user_profiles"
+    },
+    {
+      "Tables_in_83vhAqWUSrpJG52MpW6U3Q": "users"
+    }
+  ],
+  "messages": [],
+  "stdout": "Tables_in_83vhAqWUSrpJG52MpW6U3Q\n__drizzle_migrations\nachievements\nai_generated_courses\nai_instructor\nuser_profiles\nusers\n",
+  "stderr": "",
+  "execution_time_ms": 85
+}
